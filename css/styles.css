@@ -11,7 +11,7 @@ body {
 	margin:0;
 	color: #fff;
 	background-size:cover;
-	/* background:url('../images/swirl_pattern.png') top left repeat; */
+	background:url('../images/swirl_pattern.png') top left repeat;
 	background: #000000;
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -112,7 +112,7 @@ text-align: center;
 #socialIcons ul li {margin-right: 19px;list-style-type: none;display: inline-block;background: #000000;padding: 10px;border: 1px solid #ffffff;}
 #socialIcons ul li a{width:34px;height: 28px;display: inline-block;}
 .twitterIcon, .facebookIcon, .linkedInIcon, .pintrestIcon{
-background: url('../images/social-icons.png') -74px -2.5px;
+background: url('./images/social-icons.png') -74px -2.5px;
 }
 
  .twitterIcon:hover, .facebookIcon:hover, .linkedInIcon:hover, .pintrestIcon:hover{
