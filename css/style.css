@@ -3704,12 +3704,12 @@ input[type="button"].btn-block {
     display: none; }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9); }
+  color: rgba(255, 255, 255, 0.9); }
   .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-    color: rgba(0, 0, 0, 0.9); }
+    color: rgba(255, 255, 255, 0.9); }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.5); }
+  color: rgba(255, 255, 255, 0.5); }
   .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
     color: rgba(0, 0, 0, 0.7); }
   .navbar-light .navbar-nav .nav-link.disabled {
@@ -8220,7 +8220,7 @@ h1, h2, h3, h4, h5,
         height: 2px;
         bottom: 0;
         left: 0;
-        background: #3e64ff;
+        background: #ff0030;
         visibility: visible;
         -webkit-transform: scaleX(0);
         -moz-transform: scaleX(0);
@@ -8347,7 +8347,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light.scrolled .nav-link {
       color: #000000 !important; }
       .ftco-navbar-light.scrolled .nav-link.active {
-        color: #3e64ff !important; }
+        color: #ff0030 !important; }
     .ftco-navbar-light.scrolled.awake {
       margin-top: 0px;
       -webkit-transition: .3s all ease-out;
@@ -8368,22 +8368,7 @@ h1, h2, h3, h4, h5,
   font-size: 26px;
   position: relative;
   z-index: 0; }
-  .navbar-brand:after {
-    position: absolute;
-    top: 50%;
-    left: -12px;
-    width: 40px;
-    height: 40px;
-    content: '';
-    background: #3e64ff;
-    z-index: -1;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%; }
+  
   .navbar-brand span {
     color: #fff; }
 
@@ -8402,7 +8387,7 @@ h1, h2, h3, h4, h5,
     content: '';
     opacity: .1;
     width: 50%;
-    background: #3e64ff; }
+    background: #000000; }
   .hero-wrap .text {
     width: 100%; }
 
@@ -8410,7 +8395,7 @@ h1, h2, h3, h4, h5,
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 800;
-  color: #3e64ff;
+  color: #ff0030;
   letter-spacing: 4px; }
 
 .slider-text h1 {
@@ -9672,3 +9657,9 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+/* My Fonts */
+@font-face {
+  font-family: "xtreem";    
+  src: url("../fonts/XtreemFat.ttf");
+}
