@@ -22,11 +22,14 @@
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<body style="font-family: 'Montserrat', sans-serif;" data-spy="scroll" data-target=".site-navbar-target"
+	data-offset="300">
 
-
+	<!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 		<div class="container">
 
@@ -52,6 +55,8 @@
 			</div>
 		</div>
 	</nav>
+
+	<!-- Header -->
 	<section class="hero-wrap js-fullheight">
 		<div class="overlay"></div>
 		<div class="container">
@@ -71,6 +76,7 @@
 		</div>
 	</section>
 
+	<!-- About -->
 	<section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
 		<div class="container">
 			<div class="row d-flex no-gutters">
@@ -88,7 +94,8 @@
 							<h2 class="mb-4">Acerca de mi</h2>
 							<p style="text-align: justify;">Soy un desarrollador Junior Full Stack 💻 en varias
 								tecnologías y contando, diseñador y
-								desarrollador de videojuegos 🎮, optimista sobre la gamificación como apoyo para los modelos
+								desarrollador de videojuegos 🎮, optimista sobre la gamificación como apoyo para los
+								modelos
 								educativos de todos los niveles y dibujante como hobby👨🏽‍🎨</p s>
 							<ul class="about-info mt-4 px-md-0 px-2">
 								<li class="d-flex"><span>Nombre:</span> <span>Victor Olave</span></li>
@@ -114,6 +121,7 @@
 		</div>
 	</section>
 
+	<!-- Partners -->
 	<!-- <section class="ftco-section ftco-partner">
 		<div class="container">
 			<div class="row">
@@ -141,20 +149,29 @@
 		</div>
 	</section> -->
 
+	<!-- Content -->
 	<section class="ftco-section ftco-no-pb goto-here" id="resume-section">
 		<div class="container">
 			<div class="row">
+
+				<!-- Navigation -->
 				<div class="col-md-3">
 					<nav id="navi">
 						<ul>
 							<li><a href="#page-1">Educación</a></li>
 							<li><a href="#page-2">Experiencia</a></li>
-							<li><a href="#page-3">Habilidades</a></li>
-							<li><a href="#page-4">Reconocimientos</a></li>
+							<li><a href="#page-3">Lenguajes de Programación</a></li>
+							<li><a href="#page-4">Frameworks Frontend</a></li>
+							<li><a href="#page-5">Frameworks Backend</a></li>
+							<li><a href="#page-6">Tecnologias & Herramientas</a></li>
+							<!-- <li><a href="#page-4">Reconocimientos</a></li> -->
 						</ul>
 					</nav>
 				</div>
+
 				<div class="col-md-9">
+
+					<!-- Page 1 | Education -->
 					<div id="page-1" class="page one">
 						<h2 class="heading">Educación</h2>
 
@@ -252,6 +269,7 @@
 
 					</div>
 
+					<!-- Page 2 | Experience -->
 					<div id="page-2" class="page two">
 						<h2 class="heading">Experiencia</h2>
 						<div class="resume-wrap d-flex ftco-animate">
@@ -295,22 +313,25 @@
 								<span class="date">Junio 2018 - Actualidad</span>
 								<h2>Diseñador y desarrollador Web</h2>
 								<span class="position">Agencia Mark Ideas</span>
-								<p>Me desempeño como diseñador y desarrollador web principal de la agencia de 
+								<p>Me desempeño como diseñador y desarrollador web principal de la agencia de
 									marketing Markideas donde he desarrollado principalmente paginas de aterrizaje
 									y con planes para el desarrollo de una aplicación movil.
 								</p>
 							</div>
 						</div>
 					</div>
+
+					<!-- Page 3 | Programing Languages -->
 					<div id="page-3" class="page three">
-						<h2 class="heading">Habilidades</h2>
+						<h2 class="heading">Lenguajes de Programación</h2>
+
 						<div class="row progress-circle mb-5">
 							<div class="col-lg-4 mb-4">
 								<div class="bg-white rounded-lg shadow p-4">
-									<h2 class="h5 font-weight-bold text-center mb-4">CSS</h2>
+									<h2 class="h5 font-weight-bold text-center mb-4">PHP</h2>
 
 									<!-- Progress bar 1 -->
-									<div class="progress mx-auto" data-value='90'>
+									<div class="progress mx-auto" data-value='70'>
 										<span class="progress-left">
 											<span class="progress-bar border-primary"></span>
 										</span>
@@ -319,13 +340,13 @@
 										</span>
 										<div
 											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-											<div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
+											<div class="h2 font-weight-bold">70<sup class="small">%</sup></div>
 										</div>
 									</div>
 									<!-- END -->
 
 									<!-- Demo info -->
-									<div class="row text-center mt-4">
+									<!-- <div class="row text-center mt-4">
 										<div class="col-6 border-right">
 											<div class="h4 font-weight-bold mb-0">28%</div><span
 												class="small text-gray">Last week</span>
@@ -334,14 +355,14 @@
 											<div class="h4 font-weight-bold mb-0">60%</div><span
 												class="small text-gray">Last month</span>
 										</div>
-									</div>
+									</div> -->
 									<!-- END -->
 								</div>
 							</div>
 
 							<div class="col-lg-4 mb-4">
 								<div class="bg-white rounded-lg shadow p-4">
-									<h2 class="h5 font-weight-bold text-center mb-4">HTML</h2>
+									<h2 class="h5 font-weight-bold text-center mb-4">Javascript</h2>
 
 									<!-- Progress bar 1 -->
 									<div class="progress mx-auto" data-value='80'>
@@ -359,7 +380,7 @@
 									<!-- END -->
 
 									<!-- Demo info -->
-									<div class="row text-center mt-4">
+									<!-- <div class="row text-center mt-4">
 										<div class="col-6 border-right">
 											<div class="h4 font-weight-bold mb-0">28%</div><span
 												class="small text-gray">Last week</span>
@@ -368,17 +389,17 @@
 											<div class="h4 font-weight-bold mb-0">60%</div><span
 												class="small text-gray">Last month</span>
 										</div>
-									</div>
+									</div> -->
 									<!-- END -->
 								</div>
 							</div>
 
 							<div class="col-lg-4 mb-4">
 								<div class="bg-white rounded-lg shadow p-4">
-									<h2 class="h5 font-weight-bold text-center mb-4">jQuery</h2>
+									<h2 class="h5 font-weight-bold text-center mb-4">Python</h2>
 
 									<!-- Progress bar 1 -->
-									<div class="progress mx-auto" data-value='75'>
+									<div class="progress mx-auto" data-value='65'>
 										<span class="progress-left">
 											<span class="progress-bar border-primary"></span>
 										</span>
@@ -387,13 +408,13 @@
 										</span>
 										<div
 											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-											<div class="h2 font-weight-bold">75<sup class="small">%</sup></div>
+											<div class="h2 font-weight-bold">65<sup class="small">%</sup></div>
 										</div>
 									</div>
 									<!-- END -->
 
 									<!-- Demo info -->
-									<div class="row text-center mt-4">
+									<!-- <div class="row text-center mt-4">
 										<div class="col-6 border-right">
 											<div class="h4 font-weight-bold mb-0">28%</div><span
 												class="small text-gray">Last week</span>
@@ -402,7 +423,7 @@
 											<div class="h4 font-weight-bold mb-0">60%</div><span
 												class="small text-gray">Last month</span>
 										</div>
-									</div>
+									</div> -->
 									<!-- END -->
 								</div>
 							</div>
@@ -410,44 +431,44 @@
 						<div class="row">
 							<div class="col-md-6 animate-box">
 								<div class="progress-wrap ftco-animate">
-									<h3>Photoshop</h3>
+									<h3>Java</h3>
 									<div class="progress">
-										<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
-											aria-valuemin="0" aria-valuemax="100" style="width:90%">
-											<span>90%</span>
+										<div class="progress-bar color-1" role="progressbar" aria-valuenow="80"
+											aria-valuemin="0" aria-valuemax="100" style="width:80%">
+											<span>80%</span>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="col-md-6 animate-box">
 								<div class="progress-wrap ftco-animate">
-									<h3>jQuery</h3>
+									<h3>Ruby</h3>
 									<div class="progress">
-										<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
-											aria-valuemin="0" aria-valuemax="100" style="width:85%">
-											<span>85%</span>
+										<div class="progress-bar color-2" role="progressbar" aria-valuenow="65"
+											aria-valuemin="0" aria-valuemax="100" style="width:65%">
+											<span>65%</span>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="col-md-6 animate-box">
 								<div class="progress-wrap ftco-animate">
-									<h3>HTML5</h3>
+									<h3>Go</h3>
 									<div class="progress">
-										<div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
-											aria-valuemin="0" aria-valuemax="100" style="width:95%">
-											<span>95%</span>
+										<div class="progress-bar color-3" role="progressbar" aria-valuenow="60"
+											aria-valuemin="0" aria-valuemax="100" style="width:60%">
+											<span>60%</span>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="col-md-6 animate-box">
 								<div class="progress-wrap ftco-animate">
-									<h3>CSS3</h3>
+									<h3>C#</h3>
 									<div class="progress">
-										<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
-											aria-valuemin="0" aria-valuemax="100" style="width:90%">
-											<span>90%</span>
+										<div class="progress-bar color-4" role="progressbar" aria-valuenow="75"
+											aria-valuemin="0" aria-valuemax="100" style="width:75%">
+											<span>65%</span>
 										</div>
 									</div>
 								</div>
@@ -463,74 +484,550 @@
 									</div>
 								</div>
 							</div>
+						</div>
+					</div>
+
+					<!-- Page 4 | Frontend Frameworks -->
+					<div id="page-4" class="page three">
+						<h2 class="heading">Frameworks Frontend</h2>
+
+						<div class="row progress-circle mb-5">
+							<div class="col-lg-3 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center mb-4">React</h2>
+
+									<!-- Progress bar 1 -->
+									<div class="progress mx-auto" data-value='70'>
+										<span class="progress-left">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<span class="progress-right">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<div
+											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+											<div class="h2 font-weight-bold">70<sup class="small">%</sup></div>
+										</div>
+									</div>
+									<!-- END -->
+
+									<!-- Demo info -->
+									<!-- <div class="row text-center mt-4">
+										<div class="col-6 border-right">
+											<div class="h4 font-weight-bold mb-0">28%</div><span
+												class="small text-gray">Last week</span>
+										</div>
+										<div class="col-6">
+											<div class="h4 font-weight-bold mb-0">60%</div><span
+												class="small text-gray">Last month</span>
+										</div>
+									</div> -->
+									<!-- END -->
+								</div>
+							</div>
+
+							<div class="col-lg-3 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center mb-4">Vue</h2>
+
+									<!-- Progress bar 1 -->
+									<div class="progress mx-auto" data-value='80'>
+										<span class="progress-left">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<span class="progress-right">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<div
+											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+											<div class="h2 font-weight-bold">75<sup class="small">%</sup></div>
+										</div>
+									</div>
+									<!-- END -->
+
+									<!-- Demo info -->
+									<!-- <div class="row text-center mt-4">
+										<div class="col-6 border-right">
+											<div class="h4 font-weight-bold mb-0">28%</div><span
+												class="small text-gray">Last week</span>
+										</div>
+										<div class="col-6">
+											<div class="h4 font-weight-bold mb-0">60%</div><span
+												class="small text-gray">Last month</span>
+										</div>
+									</div> -->
+									<!-- END -->
+								</div>
+							</div>
+
+							<div class="col-lg-3 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center mb-4">Angular</h2>
+
+									<!-- Progress bar 1 -->
+									<div class="progress mx-auto" data-value='60'>
+										<span class="progress-left">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<span class="progress-right">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<div
+											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+											<div class="h2 font-weight-bold">65<sup class="small">%</sup></div>
+										</div>
+									</div>
+									<!-- END -->
+
+									<!-- Demo info -->
+									<!-- <div class="row text-center mt-4">
+										<div class="col-6 border-right">
+											<div class="h4 font-weight-bold mb-0">28%</div><span
+												class="small text-gray">Last week</span>
+										</div>
+										<div class="col-6">
+											<div class="h4 font-weight-bold mb-0">60%</div><span
+												class="small text-gray">Last month</span>
+										</div>
+									</div> -->
+									<!-- END -->
+								</div>
+							</div>
+
+							<div class="col-lg-3 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center mb-4">Edge</h2>
+
+									<!-- Progress bar 1 -->
+									<div class="progress mx-auto" data-value='55'>
+										<span class="progress-left">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<span class="progress-right">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<div
+											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+											<div class="h2 font-weight-bold">55<sup class="small">%</sup></div>
+										</div>
+									</div>
+									<!-- END -->
+
+									<!-- Demo info -->
+									<!-- <div class="row text-center mt-4">
+										<div class="col-6 border-right">
+											<div class="h4 font-weight-bold mb-0">28%</div><span
+												class="small text-gray">Last week</span>
+										</div>
+										<div class="col-6">
+											<div class="h4 font-weight-bold mb-0">60%</div><span
+												class="small text-gray">Last month</span>
+										</div>
+									</div> -->
+									<!-- END -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Page 5 | Backend Frameworks -->
+					<div id="page-5" class="page three">
+						<h2 class="heading">Frameworks Backend</h2>
+
+						<div class="row progress-circle mb-5">
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center">Express</h2>
+									<h3 class="h6 text-center mb-4">Javascript</h3>
+									<!-- Progress bar 1 -->
+									<div class="progress mx-auto" data-value='80'>
+										<span class="progress-left">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<span class="progress-right">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<div
+											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+											<div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
+										</div>
+									</div>
+									<!-- END -->
+
+									<!-- Demo info -->
+									<!-- <div class="row text-center mt-4">
+										<div class="col-6 border-right">
+											<div class="h4 font-weight-bold mb-0">28%</div><span
+												class="small text-gray">Last week</span>
+										</div>
+										<div class="col-6">
+											<div class="h4 font-weight-bold mb-0">60%</div><span
+												class="small text-gray">Last month</span>
+										</div>
+									</div> -->
+									<!-- END -->
+								</div>
+							</div>
+
+							<div class="col-lg-4 mb-4">	
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center">Adonis</h2>
+									<h3 class="h6 text-center mb-4">Javascript</h3>
+
+									<!-- Progress bar 1 -->
+									<div class="progress mx-auto" data-value='80'>
+										<span class="progress-left">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<span class="progress-right">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<div
+											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+											<div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
+										</div>
+									</div>
+									<!-- END -->
+
+									<!-- Demo info -->
+									<!-- <div class="row text-center mt-4">
+										<div class="col-6 border-right">
+											<div class="h4 font-weight-bold mb-0">28%</div><span
+												class="small text-gray">Last week</span>
+										</div>
+										<div class="col-6">
+											<div class="h4 font-weight-bold mb-0">60%</div><span
+												class="small text-gray">Last month</span>
+										</div>
+									</div> -->
+									<!-- END -->
+								</div>
+							</div>
+
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center">Django</h2>
+									<h3 class="h6 text-center mb-4">Python</h3>
+
+									<!-- Progress bar 1 -->
+									<div class="progress mx-auto" data-value='70'>
+										<span class="progress-left">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<span class="progress-right">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<div
+											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+											<div class="h2 font-weight-bold">70<sup class="small">%</sup></div>
+										</div>
+									</div>
+									<!-- END -->
+
+									<!-- Demo info -->
+									<!-- <div class="row text-center mt-4">
+										<div class="col-6 border-right">
+											<div class="h4 font-weight-bold mb-0">28%</div><span
+												class="small text-gray">Last week</span>
+										</div>
+										<div class="col-6">
+											<div class="h4 font-weight-bold mb-0">60%</div><span
+												class="small text-gray">Last month</span>
+										</div>
+									</div> -->
+									<!-- END -->
+								</div>
+							</div>
+						</div>
+						<div class="row">
 							<div class="col-md-6 animate-box">
 								<div class="progress-wrap ftco-animate">
-									<h3>SEO</h3>
+									<h3>Laravel ( PHP ) </h3>
 									<div class="progress">
-										<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-											aria-valuemin="0" aria-valuemax="100" style="width:80%">
-											<span>80%</span>
+										<div class="progress-bar color-1" role="progressbar" aria-valuenow="60"
+											aria-valuemin="0" aria-valuemax="100" style="width:60%">
+											<span>60%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box">
+								<div class="progress-wrap ftco-animate">
+									<h3>Yii 2 ( PHP )</h3>
+									<div class="progress">
+										<div class="progress-bar color-2" role="progressbar" aria-valuenow="78"
+											aria-valuemin="0" aria-valuemax="100" style="width:78%">
+											<span>78%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box">
+								<div class="progress-wrap ftco-animate">
+									<h3>Spring ( Java )</h3>
+									<div class="progress">
+										<div class="progress-bar color-3" role="progressbar" aria-valuenow="50"
+											aria-valuemin="0" aria-valuemax="100" style="width:50%">
+											<span>50%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box">
+								<div class="progress-wrap ftco-animate">
+									<h3>Rails ( Ruby )</h3>
+									<div class="progress">
+										<div class="progress-bar color-4" role="progressbar" aria-valuenow="60"
+											aria-valuemin="0" aria-valuemax="100" style="width:60%">
+											<span>60%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box">
+								<div class="progress-wrap ftco-animate">
+									<h3>Echo ( Go )</h3>
+									<div class="progress">
+										<div class="progress-bar color-5" role="progressbar" aria-valuenow="40"
+											aria-valuemin="0" aria-valuemax="100" style="width:40%">
+											<span>40%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box">
+								<div class="progress-wrap ftco-animate">
+									<h3>Flask ( Python )</h3>
+									<div class="progress">
+										<div class="progress-bar color-5" role="progressbar" aria-valuenow="50"
+											aria-valuemin="0" aria-valuemax="100" style="width:50%">
+											<span>50%</span>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div id="page-4" class="page four">
-						<h2 class="heading">Awards</h2>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
+
+					<!-- Page 6 | Technologies and Tools -->
+					<div id="page-6" class="page three">
+						<h2 class="heading">Tecnologias & Herramientas</h2>
+
+						<div class="row progress-circle mb-5">
+
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center mb-4">Unity</h2>
+									<!-- Progress bar 1 -->
+									<div class="progress mx-auto" data-value='80'>
+										<span class="progress-left">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<span class="progress-right">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<div
+											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+											<div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
+										</div>
+									</div>
+									<!-- END -->
+
+									<!-- Demo info -->
+									<!-- <div class="row text-center mt-4">
+										<div class="col-6 border-right">
+											<div class="h4 font-weight-bold mb-0">28%</div><span
+												class="small text-gray">Last week</span>
+										</div>
+										<div class="col-6">
+											<div class="h4 font-weight-bold mb-0">60%</div><span
+												class="small text-gray">Last month</span>
+										</div>
+									</div> -->
+									<!-- END -->
+								</div>
 							</div>
-							<div class="text pl-3">
-								<span class="date">2014-2015</span>
-								<h2>Top 10 Web Developer</h2>
-								<span class="position">Cambridge University</span>
-								<p>A small river named Duden flows by their place and supplies it with the necessary
-									regelialia. It is a paradisematic country, in which roasted parts of sentences fly
-									into your mouth.</p>
+
+							<div class="col-lg-4 mb-4">	
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center mb-4">Game Maker</h2>
+
+									<!-- Progress bar 1 -->
+									<div class="progress mx-auto" data-value='70'>
+										<span class="progress-left">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<span class="progress-right">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<div
+											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+											<div class="h2 font-weight-bold">70<sup class="small">%</sup></div>
+										</div>
+									</div>
+									<!-- END -->
+
+									<!-- Demo info -->
+									<!-- <div class="row text-center mt-4">
+										<div class="col-6 border-right">
+											<div class="h4 font-weight-bold mb-0">28%</div><span
+												class="small text-gray">Last week</span>
+										</div>
+										<div class="col-6">
+											<div class="h4 font-weight-bold mb-0">60%</div><span
+												class="small text-gray">Last month</span>
+										</div>
+									</div> -->
+									<!-- END -->
+								</div>
 							</div>
+
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center mb-4">Git</h2>
+
+									<!-- Progress bar 1 -->
+									<div class="progress mx-auto" data-value='60'>
+										<span class="progress-left">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<span class="progress-right">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<div
+											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+											<div class="h2 font-weight-bold">60<sup class="small">%</sup></div>
+										</div>
+									</div>
+									<!-- END -->
+
+									<!-- Demo info -->
+									<!-- <div class="row text-center mt-4">
+										<div class="col-6 border-right">
+											<div class="h4 font-weight-bold mb-0">28%</div><span
+												class="small text-gray">Last week</span>
+										</div>
+										<div class="col-6">
+											<div class="h4 font-weight-bold mb-0">60%</div><span
+												class="small text-gray">Last month</span>
+										</div>
+									</div> -->
+									<!-- END -->
+								</div>
+							
+							
+							
+							</div>
+
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center mb-4">Ilustrator</h2>
+
+									<!-- Progress bar 1 -->
+									<div class="progress mx-auto" data-value='65'>
+										<span class="progress-left">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<span class="progress-right">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<div
+											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+											<div class="h2 font-weight-bold">65<sup class="small">%</sup></div>
+										</div>
+									</div>
+									<!-- END -->
+
+									<!-- Demo info -->
+									<!-- <div class="row text-center mt-4">
+										<div class="col-6 border-right">
+											<div class="h4 font-weight-bold mb-0">28%</div><span
+												class="small text-gray">Last week</span>
+										</div>
+										<div class="col-6">
+											<div class="h4 font-weight-bold mb-0">60%</div><span
+												class="small text-gray">Last month</span>
+										</div>
+									</div> -->
+									<!-- END -->
+								</div>
+							</div>
+
+							<div class="col-lg-4 mb-4">	
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center mb-4">Photoshop</h2>
+
+									<!-- Progress bar 1 -->
+									<div class="progress mx-auto" data-value='70'>
+										<span class="progress-left">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<span class="progress-right">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<div
+											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+											<div class="h2 font-weight-bold">70<sup class="small">%</sup></div>
+										</div>
+									</div>
+									<!-- END -->
+
+									<!-- Demo info -->
+									<!-- <div class="row text-center mt-4">
+										<div class="col-6 border-right">
+											<div class="h4 font-weight-bold mb-0">28%</div><span
+												class="small text-gray">Last week</span>
+										</div>
+										<div class="col-6">
+											<div class="h4 font-weight-bold mb-0">60%</div><span
+												class="small text-gray">Last month</span>
+										</div>
+									</div> -->
+									<!-- END -->
+								</div>
+							</div>
+
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center mb-4">Office</h2>
+							
+									<!-- Progress bar 1 -->
+									<div class="progress mx-auto" data-value='85'>
+										<span class="progress-left">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<span class="progress-right">
+											<span class="progress-bar border-primary"></span>
+										</span>
+										<div
+											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+											<div class="h2 font-weight-bold">85<sup class="small">%</sup></div>
+										</div>
+									</div>
+									<!-- END -->
+
+									<!-- Demo info -->
+									<!-- <div class="row text-center mt-4">
+										<div class="col-6 border-right">
+											<div class="h4 font-weight-bold mb-0">28%</div><span
+												class="small text-gray">Last week</span>
+										</div>
+										<div class="col-6">
+											<div class="h4 font-weight-bold mb-0">60%</div><span
+												class="small text-gray">Last month</span>
+										</div>
+									</div> -->
+									<!-- END -->
+								</div>
+							
+							
+							
+							</div>
+							
 						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2014-2015</span>
-								<h2>Top 5 LeaderShip Exellence Winner</h2>
-								<span class="position">Cambridge University</span>
-								<p>A small river named Duden flows by their place and supplies it with the necessary
-									regelialia. It is a paradisematic country, in which roasted parts of sentences fly
-									into your mouth.</p>
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2014-2015</span>
-								<h2>Top 4 Web Tester</h2>
-								<span class="position">Cambridge University</span>
-								<p>A small river named Duden flows by their place and supplies it with the necessary
-									regelialia. It is a paradisematic country, in which roasted parts of sentences fly
-									into your mouth.</p>
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2014-2015</span>
-								<h2>Art &amp; Creative Director</h2>
-								<span class="position">Cambridge University</span>
-								<p>A small river named Duden flows by their place and supplies it with the necessary
-									regelialia. It is a paradisematic country, in which roasted parts of sentences fly
-									into your mouth.</p>
-							</div>
-						</div>
+
 					</div>
+
 				</div>
 			</div>
 		</div>
